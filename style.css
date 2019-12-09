@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'EB Garamond', serif;
+
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 992px) {
+
+    .navbar {
+        position: absolute;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+
+nav.navbar {
+    max-width: 1078px;
+    margin: 0 auto;
+}
+
+#pyt-1 {
+    margin-right: -70px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#pyt-1 .pyt-cover {
+    background-image: url(files/pyt-cover0.svg);
+    z-index: 999;
+    background-repeat: no-repeat;
+}
+
+#har-hud {
+    min-height: 400px;
+}
+
+.row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    height: 100px;
+    margin-top: 100px;
+    left: 50%;
+}
+
+.parallax-window {
+    min-height: 300px;
+    min-width: 400px;
+}
+
+#produkt-oversigt div {
+    transition: .35s ease;
+}
+
+
+#produkt-oversigt .button {
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+
+#produkt-oversigt div:hover {
+    box-shadow: 5px 5px 10px #cacaca;
+    z-index: 999;
+}
+
+#produkt-oversigt div:hover .button {
+    opacity: 1;
+    cursor: pointer;
+}
