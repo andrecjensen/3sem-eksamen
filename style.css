@@ -44,6 +44,30 @@ nav.navbar {
     margin: 0 auto;
 }
 
+/* TEST her under */
+.pyt-baggrund {
+    background-image: url("files/pyt-test.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    position: relative;
+}
+
+
+/* Image CSS for your SVG */
+.pytcover {
+    z-index: 9999;
+    padding-right: 0px;
+    position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+/* TEST STOP */
+
+
+/*
 #pyt-1 {
     margin-right: -70px;
     padding: 0px;
@@ -55,6 +79,7 @@ nav.navbar {
     z-index: 999;
     background-repeat: no-repeat;
 }
+*/
 
 #har-hud {
     min-height: 400px;
