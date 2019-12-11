@@ -22,6 +22,12 @@ h4 {
 
 }
 
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
 p {
     font-family: 'Lato', sans-serif;
 }
@@ -81,48 +87,36 @@ nav.navbar {
 }
 
 .seperator {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
     position: relative;
-    height: 50vh;
-    min-height: 20rem;
-    width: 100%;
+    height: 20rem;
     overflow: hidden;
 }
 
 .seperator video {
     position: absolute;
-    top: 50%;
-    left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
     height: auto;
-    z-index: 0;
+    width: auto;
+    z-index: 1;
     -ms-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
 }
 
-.seperator .waves {
-    display: table-cell;
-    position: relative;
-    z-index: 2;
-}
-
 .wavetop {
+    margin-top: -10px;
     width: 100%;
-    display: inline-block;
-    vertical-align: top;
-    z-index: 999;
+    z-index: 9999;
+    /*    background-color: rgba(0, 255, 255, 0.27);*/
+    margin-bottom: -20px;
 }
 
 .wavebottom {
     width: 100%;
     transform: rotate(180deg);
-    display: inline-block;
-    vertical-align: bottom;
+    /*    background-color: rgba(0, 255, 255, 0.27);*/
 }
 
 .seperator .overlay {
