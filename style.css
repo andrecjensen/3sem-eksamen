@@ -103,7 +103,7 @@ nav.navbar {
 }
 
 .wavetop {
-    margin-top: -30px;
+    margin-top: -40px;
     width: 100%;
     z-index: 9999;
     margin-bottom: -40px;
@@ -111,7 +111,7 @@ nav.navbar {
 
 .wavebottom {
     margin-top: 20px;
-    margin-bottom: -5px;
+    margin-bottom: -15px;
     width: 100%;
     transform: rotate(180deg);
 }
