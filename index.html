@@ -56,7 +56,7 @@
             <p class="lead text-white">Vores vinterbade-venlige produkter er særligt udvalgt på baggrund af deres ingredienser og resultater. Vinterbadning gør i sig selv, gode ting for ens hår, hud og helbred - vores produkter forstærker disse effekter og gør hele oplevelsen endnu mere gavnlig.</p>
         </div>
     </section>
-    <img src="files/wave-top.png" class="wavebottom" alt="" style="margin-top: -70px;">
+    <img src="files/wave-top.png" class="wavebottom" alt="bølge" style="margin-top: -70px;">
 
     <!--    Content -->
 
@@ -80,29 +80,28 @@
         <div id="produkt-oversigt" class="row p-3">
             <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Maria-Nila-Repair-Shampoo.jpg" alt="Maria Nila Repair Shampoo">
                 <h4>Maria Nila Repair Shampoo</h4>
-                <p>Denne lækre shampoo fra Maria Nila genopbygger og styrker hårets struktur, og tilføjer helende fugt til håret. </p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+                <p>Denne lækre shampoo fra Maria Nila genopbygger og styrker hårets struktur, og tilføjer helende fugt til håret. </p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-shampoo">QUICK VIEW</button>
             </div>
             <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Maria-Nila-Repair-Balsam.jpg" alt="Maria Nila Repair Balsam">
                 <h4>Maria Nila Repair Balsam</h4>
-                <p>En sund og plejende balsam fra Maria Nila, der tilføjer glans og styrker dit hår med fugtgivende Camellia Sinensis Seed Oil.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+                <p>En sund og plejende balsam fra Maria Nila, der tilføjer glans og styrker dit hår med fugtgivende Camellia Sinensis Seed Oil.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-balsam">QUICK VIEW</button>
             </div>
             <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Elizabeth-Arden-Visible-Difference-Creme.jpg" alt="Elizabeth Arden Visible Difference Creme">
                 <h4>Elizabeth Arden Visible Difference Creme</h4>
-                <p>Denne creme er en super nærende og fugtgivende creme, der strammer huden op, samt stimulerer hudens celledannelse og produktion af kollagen og elastin.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+                <p>Denne creme er en super nærende og fugtgivende creme, der strammer huden op, samt stimulerer hudens celledannelse og produktion af kollagen og elastin.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-creme">QUICK VIEW</button>
             </div>
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Dolce&Gabbana-Light-Blue-LavRose-Parfume.jpg" alt="">
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Dolce&Gabbana-Light-Blue-LavRose-Parfume.jpg" alt="Parfume">
                 <h4>Dolce&Gabbana Light Blue LavRose Parfume</h4>
                 <p>Du får både en skøn duft og afslapning med denne aromaterapeutiske parfume fra Dolce & Gabbana, der indeholder lavendelolie ekstrakt.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-parfume">QUICK VIEW</button>
             </div>
         </div>
 
-        <!-- Indhold til produkternes modals -->
+        <!-- Indhold til produkternes modals del 1 -->
 
-        <div class="modal fade prod-parfume" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal fade prod-shampoo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content rounded-0">
                     <div class="modal-header">
-
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -110,7 +109,83 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row pt-3 pb-3">
-                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Dolce&Gabbana-Light-Blue-LavRose-Parfume.jpg" class="w-100" alt="Morgenkåbe"></div>
+                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Maria-Nila-Repair-Shampoo.jpg" class="w-100" alt="Shampoo"></div>
+                                <div class="col-12 col-lg-6">
+                                    <h5>Maria Nila</h5>
+                                    <h3>Repair Shampoo</h3>
+                                    <h4><strong>199 kr</strong></h4>
+                                    <p>Shampooen indeholder også Algeekstrakt, som hjælper håret med at genoprette sin naturlige balance og sundhed. Denne shampoo er den perfekte forberedelse for dit hår, inden du vinterbader. Brug den i et normalt varmt bad og skyl ud. Når du efterfølgende udsætter håret for det kolde vand, vil de nærende ingredienser blive optaget og bevaret i håret. Denne metode efterlader håret silkeblødt, fuld af næring og vitalitet.</p>
+                                    <a href="https://www.magasin.dk/structure-repair-shampoo-350-ml/VA04995989-00000001_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade prod-balsam" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row pt-3 pb-3">
+                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Maria-Nila-Repair-Balsam.jpg" class="w-100" alt="Balsam"></div>
+                                <div class="col-12 col-lg-6">
+                                    <h5>Maria Nila</h5>
+                                    <h3>Repair Balsam</h3>
+                                    <h4><strong>199 kr</strong></h4>
+                                    <p>Balsammen indeholder desuden Algeekstrakt, som hjælper håret med at genoprette sin naturlige balance og sundhed. I samarbejde med Maria Nila shampooen opnår du det bedst mulige resultat for dit hår, ved at bruge dem begge i et varmt bad, inden du hopper i det kolde vand. På denne måde vil næringsstofferne blive optaget og bevaret i håret, og efterlader det silkeblødt og fuld af næring og vitalitet.</p>
+                                    <a href="https://www.magasin.dk/structure-repair-conditioner-300-ml/VA04995935-00000001_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade prod-creme" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row pt-3 pb-3">
+                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Elizabeth-Arden-Visible-Difference-Creme.jpg" class="w-100" alt="Creme"></div>
+                                <div class="col-12 col-lg-6">
+                                    <h5>Elizabeth Arden</h5>
+                                    <h3>Visible Difference Creme</h3>
+                                    <h4><strong>199 kr</strong></h4>
+                                    <p>Cremen er rig på E-vitamin, som virker antioxiderende og A-vitamin, der medfører en sundere hud. Derudover opbygger cremen fugt-reserver og beskytter mod udtørring. Den giver fornyet vitalitet og udstråling til huden. Brug cremen efter du har været i det kolde vand, for at bevare hudens opstramning og fugt. Cremens indhold af hydrolyseret hyaluronsyre arbejder sammen med effekten fra det kolde vand, og efterlader huden glat og lækker.
+                                    </p>
+                                    <a href="https://www.magasin.dk/visible-difference-refining-moisture-cream-75-ml./VA4741220-00000001_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade prod-parfume" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row pt-3 pb-3">
+                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Dolce&Gabbana-Light-Blue-LavRose-Parfume.jpg" class="w-100" alt="Parfume"></div>
                                 <div class="col-12 col-lg-6">
                                     <h5>Dolce&Gabbana</h5>
                                     <h3>Light Blue LavRose Parfume</h3>
@@ -127,13 +202,13 @@
 
     </section>
     <div class="container-fluid pl-0 pr-0 mt-5">
-        <img src="files/wave-top.png" class="wavetop" alt="">
+        <img src="files/wave-top.png" class="wavetop" alt="bølge">
         <div class="seperator">
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4" style="z-index: 1;"></video>
-            <img src="files/wave-top.png" class="wavebottom" alt="">
+            <img src="files/wave-top.png" class="wavebottom" alt="bølge">
         </div>
-        <img src="files/wave-top.png" class="wavebottom" alt="">
+        <img src="files/wave-top.png" class="wavebottom" alt="bølge">
 
     </div>
 
@@ -147,47 +222,151 @@
                 </p>
             </div>
             <div class="order-1 order-md-2 col-12 col-md-5 col-lg-5 pl-md-0 mb-4">
-                <img src="files/pyt-vinter.png" class="w-100" alt="">
+                <img src="files/pyt-vinter.png" class="w-100" alt="Hold dig varm efter dyppet">
             </div>
         </div>
 
         <div id="produkt-oversigt" class="row p-3">
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/morgenkaabe.jpg" alt="">
-                <h4>Zach Toni Bathrobe WaffleWeave</h4>
-                <p>Hold dig dejlig varm efter et dyp i havet med denne lækre badekåbe fra Zack Toni. Den er lavet i 100% økologisk bomuld og i den bedst mulige kvalitet.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/morgenkaabe.jpg" alt="Morgenkåbe">
+                <h4>Zach Toni Morgenkåbe WaffleWeave</h4>
+                <p>Hold dig dejlig varm efter et dyp i havet med denne lækre badekåbe fra Zack Toni. Den er lavet i 100% økologisk bomuld og i den bedst mulige kvalitet.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-morgenkabe">QUICK VIEW</button>
             </div>
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/H2O-Copenhagen-Sandal.jpg" alt="">
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/H2O-Copenhagen-Sandal.jpg" alt="Sandal">
                 <h4>H2O Copenhagen Sandal</h4>
-                <p>En smart sandal at smutte i når man skal ud og vinterbade. Sandalen er produceret over en smal læst, hvilket giver dem et let udtryk.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+                <p>En smart sandal at smutte i når man skal ud og vinterbade. Sandalen er produceret over en smal læst, hvilket giver dem et let udtryk.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-sandal">QUICK VIEW</button>
             </div>
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/haandklaede-magasin.jpg" alt="">
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/haandklaede-magasin.jpg" alt="Håndklæde">
                 <h4>Magasin du Nord Supima Badehåndklæde</h4>
-                <p>Zero Twist Supima-håndklædet fra Magasin du Nord Collection i den blødeste bomuldsfrotté af 100% bomuld.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+                <p>Zero Twist Supima-håndklædet fra Magasin du Nord Collection i den blødeste bomuldsfrotté af 100% bomuld.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-handklade">QUICK VIEW</button>
             </div>
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Michael-Kors-Swimsuit.jpg" alt="">
-                <h4>Michael Kors Swimsuit</h4>
-                <p>Elegant badedragt fra Michael Kors i den blødeste kvalitet med fine kædedetaljer på de smalle, justerbare stropper.</p><button type="button" class="button btn btn-outline-dark rounded-0 mt-auto">QUICK VIEW</button>
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Michael-Kors-Swimsuit.jpg" alt="Badedragt">
+                <h4>Michael Kors Badedragt</h4>
+                <p>Elegant badedragt fra Michael Kors i den blødeste kvalitet med fine kædedetaljer på de smalle, justerbare stropper.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-badedragt">QUICK VIEW</button>
             </div>
         </div>
 
     </div>
 
+    <!-- Indhold til produkternes modals del 2 -->
+
+    <div class="modal fade prod-morgenkabe" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row pt-3 pb-3">
+                            <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/morgenkaabe.jpg" class="w-100" alt="Morgenkåbe"></div>
+                            <div class="col-12 col-lg-6">
+                                <h5>Zach Toni</h5>
+                                <h3>Morgenkåbe WaffleWeave</h3>
+                                <h4><strong>1.199 kr</strong></h4>
+                                <p>Vi har udvalgt denne badekåbe særligt til vinterbadning, på grund af dens komfort, varme og åndbarhed. Den er ekstra absorberende, så du hurtigt kan blive varm igen efter badningen. Designeren bag denne kåbe, Zack Toni, er selv en aktiv vinterbader ifølge hans instagram-profil, og derfor ved han netop, hvor vigtig badekåben er. Brug derfor denne stilsikre kåbe når du skal til og fra vandet, for at holde kroppen varm. </p>
+                                <a href="https://www.magasin.dk/morgenkaabe/VA04531136-12745447_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade prod-sandal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row pt-3 pb-3">
+                            <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/H2O-Copenhagen-Sandal.jpg" class="w-100" alt="Sandal"></div>
+                            <div class="col-12 col-lg-6">
+                                <h5>H20</h5>
+                                <h3>Copenahgen Sandal</h3>
+                                <h4><strong>400 kr</strong></h4>
+                                <p>Ydersålen er fremstillet i polyurethan (PU), som er kendetegnet ved dets lange holdbarhed. Overdelen og indersålen er fremstillet i materialet polyvinylchlorid (PVC) og er fri for ftalater. Materialet er kendt for sin store elasticitet, som sikrer en behagelig pasform. Brug disse sandaler når du ikke vil have kolde fødder til og fra vinter-vandet. På grund af det særlige materiale, er de desuden skridsikre, hvis der nu skulle ligge is eller sne.</p>
+                                <a href="https://www.magasin.dk/copenhagen-sandal/VA04837683-12941841_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade prod-handklade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row pt-3 pb-3">
+                            <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/haandklaede-magasin.jpg" class="w-100" alt="Håndklæde"></div>
+                            <div class="col-12 col-lg-6">
+                                <h5>Magasin du Nord</h5>
+                                <h3>Supima Badehåndklæde</h3>
+                                <h4><strong>95 kr</strong></h4>
+                                <p>Håndklædet er af den bedst mulige kvalitet, og exceptionelt let og ekstra absorberende. Det er vævede med zero twist teknologi, der sikrer ekstrem blødhed samt høj absorberingsevne efter vask. Den amerikanske Supima bomuld med ekstra lange fibre sikrer lang holdbarhed. Brug dette lækre håndklæde i saunaen, hvis brædderne bliver for varme, eller bare til at blive tør efter en forfriskende tur i vandet.
+                                </p>
+                                <a href="https://www.magasin.dk/original-haandklaede/VA04714234-00000001_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade prod-badedragt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row pt-3 pb-3">
+                            <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="/files/produkt/Michael-Kors-Swimsuit.jpg" class="w-100" alt="Badedragt"></div>
+                            <div class="col-12 col-lg-6">
+                                <h5>Michael Kors</h5>
+                                <h3>Badedragt</h3>
+                                <h4><strong>949 kr</strong></h4>
+                                <p>Badedragten har derudover let vatterede skåle, en fin udskæring på fronten samt en halv dyb ryg, der giver en rigtig smuk figur. Når man vinterbader er der nogle der foretrækker at gøre det nøgen, men det er ikke et krav og du kan stadig opnå de samme gode fordele. Med denne flotte badedragt kan du føle dig tilpas og dermed fokusere på afslapning og wellness aspektet af vinterbadning.</p>
+                                <a href="https://www.magasin.dk/swimsuit/VA04989161-12308772_061.html" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="" style="background-color: #EBEBEB;">
-        <img src="files/wave-top.png" class="wavetop" alt="">
+        <img src="files/wave-top.png" class="wavetop" alt="Bølge">
 
         <div id="femraad" class="container">
             <h2 class="text-center m-5">For at ruste dig endnu mere til din vinterbadetur, har vi her samlet de fem vigtigste råd, til når du skal ud og opleve det kolde gys.</h2>
             <div class="row">
                 <div class="col col-12 col-md-6 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
-                        <img src="files/magasin-logo0.svg" class="m-4" alt="">
+                        <img src="files/magasin-logo0.svg" class="m-4" alt="Vinterbad aldrig alene">
                         <h4 class="text-center">Vinterbad aldrig alene</h4>
                         <p>Da der er en risiko for, at selv sunde mennesker kan besvime i vandet, er det klogest at have en med, som eventuelt kan redde dig ud af vandet uden selv at skulle i. Derudover er det generelt bare sjovere at have en ven, kæreste eller ægtefælle med, som man kan have det sjovt med og dermed øge endorfin niveauet endnu mere, end vinterbadning i forvejen gør.</p>
                     </div>
                 </div>
                 <div class="col col-12 col-md-6 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
-                        <img src="files/magasin-logo0.svg" class="m-4" alt="">
+                        <img src="files/magasin-logo0.svg" class="m-4" alt="Gå roligt ned i vandet">
                         <h4 class="text-center">Gå roligt ned i vandet</h4>
                         <p>Selv sunde mennesker kan gå i chok, og det er der større risiko for, hvis man bare hopper i med det samme. Man har også en ”gasp”-refleks, når kroppen rammer vandet, hvilket får kroppen til at suge en stor mængde luft ind. Hvis man er under vand, når det sker, og ikke er vant til det, kan man risikere at suge vand ned i lungerne og i værste fald drukne.</p>
                     </div>
@@ -196,21 +375,21 @@
             <div class="row">
                 <div class="col col-12 col-md-6 col-lg-4 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
-                        <img src="files/magasin-logo0.svg" class="m-4" alt="">
+                        <img src="files/magasin-logo0.svg" class="m-4" alt="Hold dig tæt ved stigen">
                         <h4 class="text-center">Hold dig tæt ved stigen</h4>
                         <p>Selvom du føler dig selvsikker og modig som en svømmer, kan du aldrig være 100% sikker på hvor lang tid din krop kan klare det kolde vand. Svøm derfor ikke for langt fra stigen, så du nemt kan hive dig selv op, hvis du føler dig svimmel. Dette kommer også meget an på temperaturen af vandet; hvis det er under frysepunktet, bør man kun dyppe sig selv fra stigen.</p>
                     </div>
                 </div>
                 <div class="col col-12 col-md-6 col-lg-4 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
-                        <img src="files/magasin-logo0.svg" class="m-4" alt="">
+                        <img src="files/magasin-logo0.svg" class="m-4" alt="Træk vejret roligt">
                         <h4 class="text-center">Træk vejret roligt</h4>
                         <p>Selvom vinterbadning kan være en overvældende oplevelse, er det vigtigt at holde øje med sin vejrtrækning, så man ikke hyperventilerer. Hvis man lader sin krop hyperventilere uden at trække vejret roligt og dybt, kan man risikere at besvime. Husk derfor at minde dig selv om at trække vejret roligt, når du går ned i vandet og når du kommer op igen.</p>
                     </div>
                 </div>
                 <div class="col col-12 col-md-12 col-lg-4 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
-                        <img src="files/magasin-logo0.svg" class="m-4" alt="">
+                        <img src="files/magasin-logo0.svg" class="m-4" alt="Vær forberedt">
                         <h4 class="text-center">Vær forberedt</h4>
                         <p>Det er vigtigt at kroppen bliver varm igen, efter du er færdig med at vinterbade. Så tænk derfor over dit tøj til hjemturen og husk en badekåbe, samt tøfler. Hvis du har planer om at cykle hjem er det især vigtig du får varmet dig og har nogenlunde tørt hår, så du undgår at blive syg. Tag eventuelt også en termokande med kaffe eller the, med til efter badningen.</p>
                     </div>
@@ -218,14 +397,14 @@
             </div>
         </div>
     </section>
-    <img src="files/wave-topgrey.png" class="wavetop" alt="">
+    <img src="files/wave-topgrey.png" class="wavetop" alt="Bølge">
 
     <div class="container pt-5">
 
         <h2 class="text-center mb-4">Inspirationsvideo</h2>
         <iframe width="100%" height="450px" src="https://www.youtube.com/embed/6G7z7QNXMy4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <img src="files/wave-topgrey.png" class="wavebottom" alt="">
+    <img src="files/wave-topgrey.png" class="wavebottom" alt="Bølge">
     <section style="background-color: #EBEBEB">
         <div class="container pt-4">
             <div class="row d-none d-sm-flex pb-2">
@@ -287,7 +466,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-center mt-3 mb-3"><img src="files/magasin-logo0.svg" style="width: 150px;" alt=""></div>
+                <div class="col-12 text-center mt-3 mb-3"><img src="files/magasin-logo0.svg" style="width: 150px;" alt="Magasin.dk"></div>
             </div>
         </div>
     </section>
