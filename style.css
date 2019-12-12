@@ -19,13 +19,13 @@ h3 {
 
 h4 {
     font-family: 'Lato', sans-serif;
-
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 h5 {
     font-family: 'Lato', sans-serif;
     font-size: 1.1em;
-    font-weight: bold;
 }
 
 p {
@@ -33,6 +33,7 @@ p {
 }
 
 a {
+    font-family: 'Lato', sans-serif;
     color: #2c2c2c;
 }
 
@@ -44,6 +45,18 @@ a:hover {
 
 li {
     font-family: 'Lato', sans-serif;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #9FBDC3 !important;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #809ea3 !important;
+    border: 0;
 }
 
 @media (max-width: 992px) {
@@ -73,16 +86,24 @@ nav.navbar {
 
 
 #produkt-oversigt .button {
-    opacity: 0;
+    opacity: 1;
     transition: opacity .35s ease;
 }
 
+/* Dette MQ skjuler knapperne i produkterne ved md-breakpointet, så de kun vises ved hover */
+@media (min-width: 768px) {
+    #produkt-oversigt .button {
+        opacity: 0;
+    }
+}
 
 #produkt-oversigt div:hover {
     box-shadow: 1px 1px 10px #d8d8d8;
     transform: scale(1.03);
     z-index: 999;
 }
+
+
 
 #produkt-oversigt div:hover .button {
     opacity: 1;
