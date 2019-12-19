@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -22,15 +21,18 @@
     <link href="favicon.ico" rel="shortcut icon">
     <title>Magasin | Vinterliv</title>
 
-    <style>
-    </style>
+    <script>
+
+    </script>
+
+
 </head>
 
 <body>
     <header>
         <!--       Menu -->
         <nav class="navbar navbar-expand-lg navbar-light mx-auto bg-white">
-            <a class="navbar-brand pt-2 pb-2" href="#">
+            <a class="navbar-brand pt-2 pb-2" href="https://www.magasin.dk">
                 <img src="files/magasin-vinterliv.svg" height="30" alt="Magasin logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,10 +44,10 @@
                         <a class="nav-link" href="#hudhaar">Skønhed</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#velvare">påklædning</a>
+                        <a class="nav-link" href="#velvare">Beklædning</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#fireraad">gode Råd</a>
+                        <a class="nav-link" href="#fireraad">Gode Råd</a>
                     </li>
                 </ul>
             </div>
@@ -55,15 +57,18 @@
     <!--    SPLASH -->
     <main class="jumbotron jumbotron-fluid rounded-0 pb-4">
 
-        <video autoplay muted loop poster="files/sektion2.jpg" class="mb-5">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="mb-5">
             <source src="files/video/Splash_6mb.mp4" data-src="files/video/Splash_6mb.mp4" type="video/mp4">
+            <source src="files/video/Splash_ny_03.ogv" data-src="files/video/Splash_ny_03.ogv" type="video/ogv">
+            <source src="files/video/Splash_ny_03.webm" data-src="files/video/Splash_ny_03.webm" type="video/webm">
         </video>
 
         <div class="container pl-lg-5 pr-lg-5 text-center">
 
             <img src="files/vinterliv-logo.svg" alt="Vinterliv" class="w-50 mt-md-0 mt-lg-5 mb-3 mb-md-1 mb-lg-4">
             <h1 class="d-none">Vinterliv</h1>
-            <p class="text-white mx-auto">Vores vinterbade-venlige produkter er særligt udvalgt på baggrund af deres ingredienser og resultater. Vinterbadning gør i sig selv, gode ting for ens hår, hud og helbred — vores produkter forstærker disse effekter og gør hele oplevelsen endnu mere gavnlig.</p>
+            <p class="text-white mx-auto">Vinterbadning kan gøre vinteren lidt sjovere - især med de rette produkter ved hånden.
+                Se vores anbefalede vinterlivsprodukter nedenfor, for at få det maksimale ud af den kolde tid.</p>
         </div>
     </main>
 
@@ -71,7 +76,7 @@
 
     <section id="hudhaar" class="container">
 
-        <div class="row mt-5 mb-4">
+        <div class="row mt-5 pt-lg-3 mb-4">
 
             <div class="col-12 col-md-5 col-lg-5 pl-md-0 mb-4 opacity-10" style="margin-right: -75px;">
                 <img src="files/sektion1.jpg" class="w-100 opacity-80" alt="Godt for håret og huden">
@@ -85,7 +90,7 @@
             </div>
         </div>
 
-        <div id="produkt-oversigt" class="row p-3">
+        <div id="produkt-oversigt" class="row p-3 mb-2">
             <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/Maria-Nila-Repair-Shampoo.jpg" alt="Maria Nila Repair Shampoo">
                 <h4>Repair Shampoo</h4>
                 <p>Denne lækre shampoo fra Maria Nila genopbygger og styrker hårets struktur, og tilføjer helende fugt til håret. </p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-shampoo">QUICK VIEW</button>
@@ -233,9 +238,9 @@
             </div>
         </div>
 
-        <div id="produkt-oversigt" class="row p-3 mb-3">
-            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/morgenkaabe.png" alt="Morgenkåbe">
-                <h4>Morgenkåbe</h4>
+        <div id="produkt-oversigt" class="row p-3 mb-5">
+            <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/morgenkaabe.png" alt="Badekåbe">
+                <h4>Badekåbe</h4>
                 <p>Hold dig dejlig varm efter et dyp i havet med denne lækre badekåbe fra Zack Toni. Den er lavet i 100% økologisk bomuld og i den bedst mulige kvalitet.</p><button type="button" class="btn button btn-outline-dark rounded-0 mt-auto" data-toggle="modal" data-target=".prod-morgenkabe">QUICK VIEW</button>
             </div>
             <div class="col-6 col-md-3 pt-3 pb-3 bg-white text-center"><img class="img-fluid mb-4" src="files/produkt/H2O-Copenhagen-Sandal.jpg" alt="Sandal">
@@ -268,10 +273,10 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                             <div class="row pt-3 pb-3">
-                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="files/produkt/morgenkaabe.png" class="w-100" alt="Morgenkåbe"></div>
+                                <div class="col-12 mb-5 mb-lg-0 col-lg-6"><img src="files/produkt/morgenkaabe.png" class="w-100" alt="Badekåbe"></div>
                                 <div class="col-12 col-lg-6">
                                     <h5>Zach Toni</h5>
-                                    <h3>Morgenkåbe WaffleWeave</h3>
+                                    <h3>Badekåbe WaffleWeave</h3>
                                     <h4><strong>1.199 kr</strong></h4>
                                     <p>Vi har udvalgt denne badekåbe særligt til vinterbadning, på grund af dens komfort, varme og åndbarhed. Den er ekstra absorberende, så du hurtigt kan blive varm igen efter badningen. Designeren bag denne kåbe, Zack Toni, er selv en aktiv vinterbader ifølge hans instagram-profil, og derfor ved han netop, hvor vigtig badekåben er. Brug derfor denne stilsikre kåbe når du skal til og fra vandet, for at holde kroppen varm. </p>
                                     <a href="https://www.magasin.dk/morgenkaabe/VA04531136-12745447_061.html" target="_blank" class="btn btn-primary rounded-0 text-uppercase pl-5 pr-5 pt-3 pb-3" role="button">Gå til produkt</a>
@@ -365,8 +370,10 @@
 
         <div class="container pt-lg-5">
             <div style="height: 7vw;"></div>
-            <h5 class="text-center text-uppercase mt-5"><strong>FIRE GODE RÅD</strong></h5>
-            <p class="text-center ml-5 mr-5 mb-5 mt-3">For at ruste dig endnu mere til din vinterbadetur, har vi her samlet de vigtigste råd, til når du skal ud og opleve det kolde gys.</p>
+            <div class="w-75 mx-auto pl-md-5 pr-md-5">
+                <h5 class="text-center text-uppercase mt-5"><strong>FIRE GODE RÅD</strong></h5>
+                <p class="text-center pl-lg-5 pr-lg-5 ml-5 mr-5 mb-5 mt-3 mx-auto">For at ruste dig endnu mere til din vinterbadetur, har vi her samlet de vigtigste råd, til når du skal ud og opleve det kolde gys.</p>
+            </div>
             <div class="row m-0">
                 <div class="col col-12 col-md-6 col-lg-3 mb-4">
                     <div class="p-3 bg-light h-100 shadow">
@@ -529,7 +536,6 @@
                 "uniqueMethods": true
             })
         })
-
     </script>
 
 </body>
